@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b0447d73a64a98b6",
+        "id": "e06b59245a0c6bab",
         "type": "tabs",
         "children": [
           {
-            "id": "577c093bbef61ba6",
+            "id": "ef2904d48a2cc17a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "redux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "redux"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "redux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для redux"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "redux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Исходящие ссылки из redux"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "redux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура redux"
             }
           }
         ]
@@ -158,11 +165,48 @@
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "command-palette:Открыть палитру команд": false,
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "577c093bbef61ba6",
+  "active": "ef2904d48a2cc17a",
   "lastOpenFiles": [
+    "this,call, apply, bind.md",
+    "RN bridge.md",
+    "ES6 Классы vs Функции-конструкторы в JavaScript.md",
+    "e.prevent e.stopPropaginatiob bubbling.md",
+    "Dependency Injection (DI) и Inversion of Control (IoC) в разработке.md",
+    "async и defer в HTML-скриптах.md",
+    "Array methods.md",
+    "Что происходит когда мы запрашиваем Web страницу.md",
+    "типы данных.md",
+    "Разница между Redux и MobX.md",
+    "Разница между атрибутами и свойствами в HTML.md",
+    "оптимизации.md",
+    "ООП.md",
+    "мусорка вопросов.md",
+    "Кеширование.md",
+    "дескрипторы.md",
+    "Архитектура TypeScript.md",
+    "JS/Функции/Теория/Функции.md",
+    "JS/Функции/Теория/Темы/Функции-генераторы в JavaScript.md",
+    "redux.md",
+    "Авито профили инжинеров.md",
+    "JS/Функции/Теория/Темы/Каррирование (Currying) в JavaScript.md",
+    "JS/Содержание.md",
+    "JS/Функции/Теория/Темы/Function Expression vs Function Declaration в JavaScript.md",
+    "JS/Функции/Теория/Темы",
+    "Map, Set.md",
+    "JS/Функции/Теория/Темы/Unique.md",
+    "JS/Контекст/Задачи",
+    "JS/Контекст/Теория",
+    "JS/Контекст",
+    "JS/Функции/Задачи",
+    "JS/Функции/Теория",
+    "JS/Функции",
+    "JS/Замыкание/Задачи",
+    "JS/Замыкание/Теория",
+    "JS/Замыкание",
     "Без названия 1.canvas",
     "Без названия.canvas"
   ]
