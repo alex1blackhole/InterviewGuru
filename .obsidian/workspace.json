@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e06b59245a0c6bab",
+        "id": "d39bae4763c5aa4a",
         "type": "tabs",
         "children": [
           {
-            "id": "ef2904d48a2cc17a",
+            "id": "0b097057cc2c804d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redux.md",
+                "file": "Без названия.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "redux"
+              "title": "Без названия"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redux.md",
+                "file": "Без названия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для redux"
+              "title": "Обратные ссылки для Без названия"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redux.md",
+                "file": "Без названия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из redux"
+              "title": "Исходящие ссылки из Без названия"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redux.md",
+                "file": "Без названия.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура redux"
+              "title": "Структура Без названия"
             }
           }
         ]
@@ -169,10 +169,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "ef2904d48a2cc17a",
+  "active": "0b097057cc2c804d",
   "lastOpenFiles": [
-    "this,call, apply, bind.md",
+    "Без названия.md",
+    "Network.md",
     "RN bridge.md",
+    "redux.md",
+    "this,call, apply, bind.md",
     "ES6 Классы vs Функции-конструкторы в JavaScript.md",
     "e.prevent e.stopPropaginatiob bubbling.md",
     "Dependency Injection (DI) и Inversion of Control (IoC) в разработке.md",
@@ -190,14 +193,11 @@
     "Архитектура TypeScript.md",
     "JS/Функции/Теория/Функции.md",
     "JS/Функции/Теория/Темы/Функции-генераторы в JavaScript.md",
-    "redux.md",
     "Авито профили инжинеров.md",
     "JS/Функции/Теория/Темы/Каррирование (Currying) в JavaScript.md",
     "JS/Содержание.md",
     "JS/Функции/Теория/Темы/Function Expression vs Function Declaration в JavaScript.md",
     "JS/Функции/Теория/Темы",
-    "Map, Set.md",
-    "JS/Функции/Теория/Темы/Unique.md",
     "JS/Контекст/Задачи",
     "JS/Контекст/Теория",
     "JS/Контекст",
