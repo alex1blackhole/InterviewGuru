@@ -58,4 +58,5 @@ console.log(1)
         
     - Таймаут из промиса `() => console.log(4)` → выводит `4` (последним, так как был добавлен позже)
 
-https://habr.com/ru/post/681882/
+
+https://www.jsv9000.app/
