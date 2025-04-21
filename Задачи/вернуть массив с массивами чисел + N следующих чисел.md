@@ -1,4 +1,4 @@
-`#JavaScript` `#Algorithms`
+#JavaScript #Algorithms
 
 
 ```js
