@@ -1,14 +1,21 @@
-functionisEqual1(object1, object2) {
+
+#JavaScript #Algorithms #objects #recursion 
+
+## 🔍 Базовая версия (без рекурсии)
+
+```js
+function isEqual1(object1, object2) {
     const props1 = Object.getOwnPropertyNames(object1);
     const props2 = Object.getOwnPropertyNames(object2);
 
+    // Проверка количества свойств
     if (props1.length !== props2.length) {
         return false;
     }
 
-    for (let i = 0; i < props1.length; i += 1) {
+    // Поверхностное сравнение значений
+    for (let i = 0; i < props1.length; i++) {
         const prop = props1[i];
-
         if (object1[prop] !== object2[prop]) {
             return false;
         }
@@ -16,30 +23,54 @@ functionisEqual1(object1, object2) {
 
     return true;
 }
+```
 
-с вложенными объектов через рекурсию
+## 🔄 Рекурсивная версия (с вложенными объектами)
 
-functionisEqual(object1, object2) {
+```js
+function isEqual(object1, object2) {
     const props1 = Object.getOwnPropertyNames(object1);
     const props2 = Object.getOwnPropertyNames(object2);
 
+    // Проверка количества свойств
     if (props1.length !== props2.length) {
         return false;
     }
 
-    for (let i = 0; i < props1.length; i += 1) {
+    for (let i = 0; i < props1.length; i++) {
         const prop = props1[i];
-        const bothAreObjects = typeof(object1[prop]) === 'object' && typeof(object2[prop]) === 'object';
+        const bothAreObjects = typeof object1[prop] === 'object' && typeof object2[prop] === 'object';
 
-        if(!bothAreObjects && (object1[prop] !== object2[prop])) {
+        // Сравнение примитивов
+        if (!bothAreObjects && object1[prop] !== object2[prop]) {
             return false;
         }
 
-        if(bothAreObjects && !isEqual(object1[prop], object2[prop])) {
+        // Рекурсивное сравнение объектов
+        if (bothAreObjects && !isEqual(object1[prop], object2[prop])) {
             return false;
         }
-
     }
 
     return true;
 }
+```
+
+
+## 📝 Памятка
+
+1. **Проверка количества свойств** - сначала сравниваем количество ключей
+    
+2. **Типы значений** - определяем, являются ли значения объектами
+    
+3. **Примитивы** - сравниваем напрямую через `!==`
+
+4. **Объекты** - рекурсивный вызов `isEqual`
+    
+5. **Edge cases**:
+    
+    - `null` имеет тип `'object'` (нужна дополнительная проверка)
+        
+    - Массивы требуют особого сравнения
+        
+    - Циклические ссылки могут вызвать переполнение стека

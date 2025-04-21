@@ -1,4 +1,4 @@
-`#JavaScript` `#Function Binding`
+#JavaScript #FunctionBinding
 
 ```js
 /**
